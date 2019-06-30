@@ -1,0 +1,61 @@
+# Translation of plugin - Custom Code Manager - in Russian (Russia)
+# This file is distributed under the same license as the plugin - Custom Code Manager.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Code Manager\n"
+"POT-Creation-Date: 2019-06-27 14:17+0300\n"
+"PO-Revision-Date: 2019-06-27 14:17+0300\n"
+"Last-Translator: Arthur Gareginyan\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: custom-code-manager.php\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: css\n"
+"X-Poedit-SearchPathExcluded-2: html\n"
+"X-Poedit-SearchPathExcluded-3: js\n"
+"X-Poedit-SearchPathExcluded-4: php\n"
+
+#: custom-code-manager.php:98 custom-code-manager.php:99
+msgid "Code"
+msgstr "Код"
+
+#: custom-code-manager.php:130
+msgid "Settings"
+msgstr "Настройки"
+
+#: custom-code-manager.php:138 custom-code-manager.php:163
+msgid "Upgrade to PRO"
+msgstr "Обновить до PRO"
+
+#: custom-code-manager.php:159
+msgid "Donate"
+msgstr "Поддержать"
+
+#. Plugin Name of the plugin/theme
+msgid "Custom Code Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.spacexchimp.com/plugins/custom-code-manager.html"
+msgstr "https://www.spacexchimp.com/plugins/custom-code-manager.html"
+
+#. Description of the plugin/theme
+msgid "Easily and safely add your custom PHP/HTML/CSS/JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
+msgstr "Легко и безопасно добавлять ваш пользовательский PHP/HTML/CSS/JavaScript код, непосредственно из области администрирования WordPress, без необходимости иметь внешний редактор."
+
+#. Author of the plugin/theme
+msgid "Space X-Chimp"
+msgstr "Space X-Chimp"
+
+#. Author URI of the plugin/theme
+msgid "https://www.spacexchimp.com"
+msgstr "https://www.spacexchimp.com"
