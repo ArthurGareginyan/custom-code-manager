@@ -18,6 +18,7 @@
 Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 
 * [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/custom-code-manager?rate=5#postform) this plugin.
 * [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/custom-code-manager) if you have any ideas or suggestions to make this plugin better.
 
 
@@ -59,6 +60,11 @@ Arthur Gareginyan
 * Website: [http://www.arthurgareginyan.com](http://www.arthurgareginyan.com)
 
 * Donation: [http://www.arthurgareginyan.com/donate.html](http://www.arthurgareginyan.com/donate.html)
+
+
+## Links
+
+* [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/custom-code-manager/)
 
 
 ---
