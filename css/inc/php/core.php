@@ -33,10 +33,7 @@ function spacexchimp_p003_register_submenu_page() {
     $menu_slug   = 'code/css';
     $function    = $plugin['prefix'] . '_render_submenu_page';
 
-    // Exit if the premium version of this plugin is active
-    if ( ! is_plugin_active( 'custom-code-manager-pro/custom-code-manager-pro.php' ) ) {
-        add_submenu_page( $parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function );
-    }
+    add_submenu_page( $parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function );
 }
 add_action( 'admin_menu', $plugin['prefix'] . '_register_submenu_page' );
 

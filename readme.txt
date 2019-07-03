@@ -4,7 +4,7 @@ Tags: code, function, snippet, script, inject code, insert code, execute code
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -227,10 +227,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Developer website](https://www.spacexchimp.com)
 * [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/custom-code-manager)
 * [Dedicated plugin page on WordPress.org](https://wordpress.org/plugins/custom-code-manager/)
-* [Premium Version](https://www.spacexchimp.com/plugins/custom-code-manager-pro.html)
 
 
 == Changelog ==
+
+= 1.0.1 =
+* The function "_register_submenu_page" is cleared of useless code.
+* The content of the "readme.txt" file is corrected.
 
 = 1.0 =
 * Initial release.
