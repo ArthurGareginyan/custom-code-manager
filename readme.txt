@@ -4,7 +4,7 @@ Tags: code, function, snippet, script, inject code, insert code, execute code
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.2
-Stable tag: 1.0.1
+Stable tag: 1.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -230,6 +230,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 1.1 =
+* On the settings page of the plugin, the "Store" tab is added.
+* On the settings page of the plugin, the "Support" tab is added.
+* Additional link (donate) added to the plugin meta row.
 
 = 1.0.1 =
 * The function "_register_submenu_page" is cleared of useless code.

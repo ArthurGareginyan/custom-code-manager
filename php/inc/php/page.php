@@ -44,6 +44,8 @@ function spacexchimp_p001_render_submenu_page() {
                 <li class="active"><a href="#tab-core" data-toggle="tab"><?php _e( 'Main', $plugin['text'] ); ?></a></li>
                 <li><a href="#tab-usage" data-toggle="tab"><?php _e( 'Usage', $plugin['text'] ); ?></a></li>
                 <li><a href="#tab-faq" data-toggle="tab"><?php _e( 'F.A.Q.', $plugin['text'] ); ?></a></li>
+                <li><a href="#tab-support" data-toggle="tab"><?php _e( 'Support', $plugin['text'] ); ?></a></li>
+                <li><a href="#tab-store" data-toggle="tab"><?php _e( 'Store', $plugin['text'] ); ?></a></li>
             </ul>
             <!-- END-TABS NAVIGATION MENU -->
 
@@ -68,6 +70,18 @@ function spacexchimp_p001_render_submenu_page() {
                 <?php require_once( $plugin['path'] . 'inc/php/tabs/faq.php' ); ?>
             </div>
             <!-- END-TAB FAQ -->
+
+            <!-- TAB SUPPORT -->
+            <div class="tab-page fade" id="tab-support">
+                <?php require_once( $plugin['path'] . 'inc/php/tabs/support.php' ); ?>
+            </div>
+            <!-- END-TAB SUPPORT -->
+
+            <!-- TAB STORE -->
+            <div class="tab-page fade" id="tab-store">
+                <div class="include-tab-store"></div>
+            </div>
+            <!-- END-TAB STORE -->
 
         </div>
 

@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom PHP/HTML/CSS/JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 1.0.1
+ * Version: 1.1
  * License: GPL3
  * Text Domain: custom-code-manager
  * Domain Path: /languages/
@@ -136,6 +136,32 @@ function spacexchimp_p020_settings_link( $links ) {
     return $links;
 }
 add_filter( 'plugin_action_links_' . $plugin_combo['base'], $plugin_combo['prefix'] . '_settings_link' );
+
+/**
+ * Print additional links to the plugin meta row
+ */
+function spacexchimp_p020_plugin_row_meta( $links, $file ) {
+
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p020_plugin();
+
+    if ( strpos( $file, $plugin['slug'] . '.php' ) !== false ) {
+
+        // Declare variables
+        $url_donate = "https://www.spacexchimp.com/donate.html";
+        $text_donate = __( 'Donate', $plugin['text'] );
+        $link_donate = '<a href="' . $url_donate . '" target="_blank"><span class="dashicons dashicons-heart"></span> ' . $text_donate . '</a>';
+
+        $new_links = array(
+                           'donate' => $link_donate
+                           );
+
+        $links = array_merge( $links, $new_links );
+    }
+
+    return $links;
+}
+add_filter( 'plugin_row_meta', $plugin_combo['prefix'] . '_plugin_row_meta', 10, 2 );
 
 /**
  * Load the plugin modules
