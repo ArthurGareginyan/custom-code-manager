@@ -3,6 +3,59 @@
 **Free WordPress Plugin**
 
 
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom code (PHP, HTML, CSS, JavaScript, etc.) to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
+
+This is a simple and perfect tool to use as your website's functionality plugin. This is a must have tool for authors and website's owners. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add custom code (PHP, HTML, CSS, JavaScript, etc.). Just add your custom code in the field on the plugin page and this plugin will do the rest for you. It will automatically add your custom code to the desired section of your website, without changing any of your theme files and without slowing down your website.
+
+The plugin works completely independently of the theme, so you can use it with any theme. The code you place on the plugin page will be entirely unaffected if you edit the contents of the themeâs files, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom code would never be overwritten. Your custom code will keep on working, no matter how many times you upgrade or switch your theme and plugins.
+
+On the plugin page you find the code editor powered by CodeMirror. This code editor has options such as syntax highlighting, line numbering, and more. And if you want more options, let us know and we will be happy to add them.
+
+**Features**
+
+* Lightweight and fast
+* Secure code with using clear coding standards
+* Intuitive interface
+* Cross browser compatible (work smooth in any modern browser)
+* Compatible with all WordPress themes
+* RTL compatible (right to left)
+* Translation ready
+* Published on [WordPess.org](http://wordpess.org/)
+
+**Key features include**
+
+* Insert custom PHP/HTML/CSS/JS code into the site
+* Checks the entered code for fatal errors
+* Easy disable option for WSOD
+* Ability to temporarily disable all custom PHP/CSS code
+* Code syntax highlighting
+* Line numbering
+* Active line highlighting
+* Editor allow for Tab indentation
+* And much, much more!
+
+**Supported languages**
+
+* PHP
+* HTML
+* CSS
+* JavaScript
+
+**Translation**
+
+This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
+
+* English (default)
+* Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
+* German (translation by Michael)
+* Polish
+* Chinese-Taiwan (translation by Gordon Yu)
+* Spanish (translation by Ramiro GarcÃ©s and Patricio Toledo)
+* Dutch (translation by Peter Leenders)
+* French (translation by Jean-Michel, Theophil Bethel and HervÃ© Bouzin)
+
+If you want to help translate this plugin, please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/custom-code-manager).
+
 **Minimum system requirements:**
 
 * [PHP](https://secure.php.net) version **5.2** or higher.
