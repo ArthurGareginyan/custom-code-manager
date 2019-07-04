@@ -46,8 +46,11 @@ function spacexchimp_p006_exec_footer_1() { spacexchimp_p006_prepare('footer_end
 
 /**
  * Inject the custom code into the website's frontend
+ * Only if the STOP file does not exist
  */
-add_action( 'wp_head', 'spacexchimp_p006_exec_head_0', 0 );
-add_action( 'wp_head', 'spacexchimp_p006_exec_head_1', 1000 );
-add_action( 'wp_footer', 'spacexchimp_p006_exec_footer_0', 0 );
-add_action( 'wp_footer', 'spacexchimp_p006_exec_footer_1', 1000 );
+if ( ! file_exists( $plugin_combo['path'] . 'STOP' ) ) {
+    add_action( 'wp_head', 'spacexchimp_p006_exec_head_0', 0 );
+    add_action( 'wp_head', 'spacexchimp_p006_exec_head_1', 1000 );
+    add_action( 'wp_footer', 'spacexchimp_p006_exec_footer_0', 0 );
+    add_action( 'wp_footer', 'spacexchimp_p006_exec_footer_1', 1000 );
+}

@@ -80,11 +80,6 @@ function spacexchimp_p001_exec() {
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p001_plugin();
 
-    // If the STOP file exist...
-    if ( file_exists( $plugin['path'] . 'STOP' ) ) {
-        return;   // EXIT
-    }
-
     // Get the custom code by calling the "prepare" function
     $data = spacexchimp_p001_prepare();
 
@@ -110,5 +105,8 @@ function spacexchimp_p001_exec() {
 
 /**
  * Inject the custom code into the website's backend and frontend
+ * Only if the STOP file does not exist
  */
-spacexchimp_p001_exec();
+if ( ! file_exists( $plugin_combo['path'] . 'STOP' ) ) {
+    spacexchimp_p001_exec();
+}

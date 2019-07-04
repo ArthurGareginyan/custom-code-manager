@@ -47,5 +47,8 @@ function spacexchimp_p003_prepare() {
 
 /**
  * Inject the custom code into the website's frontend
+ * Only if the STOP file does not exist
  */
-add_action( 'wp_head', 'spacexchimp_p003_prepare' );
+if ( ! file_exists( $plugin_combo['path'] . 'STOP' ) ) {
+    add_action( 'wp_head', 'spacexchimp_p003_prepare' );
+}

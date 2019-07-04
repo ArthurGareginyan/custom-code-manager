@@ -4,7 +4,7 @@ Tags: code, function, snippet, script, inject code, insert code, execute code
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -230,6 +230,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 1.2 =
+* The emergency stop function is improved. Now, all custom code stops execution if inside the plugin folder there is a file called "STOP".
 
 = 1.1 =
 * On the settings page of the plugin, the "Store" tab is added.
