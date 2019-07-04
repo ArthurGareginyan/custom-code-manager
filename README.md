@@ -51,9 +51,9 @@ This plugin is ready for translation and has already been translated into severa
 * German (translation by Michael)
 * Polish
 * Chinese-Taiwan (translation by Gordon Yu)
-* Spanish (translation by Ramiro GarcÃ©s and Patricio Toledo)
+* Spanish (translation by Ramiro Garcés and Patricio Toledo)
 * Dutch (translation by Peter Leenders)
-* French (translation by Jean-Michel, Theophil Bethel and HervÃ© Bouzin)
+* French (translation by Jean-Michel, Theophil Bethel and Hervé Bouzin)
 
 If you want to help translate this plugin, please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/custom-code-manager).
 
