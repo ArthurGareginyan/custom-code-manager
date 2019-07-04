@@ -2,6 +2,7 @@
 
 **Free WordPress Plugin**
 
+![screenshot](https://github.com/ArthurGareginyan/custom-code-manager/blob/master/assets/banner-772x250.png)
 
 An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom code (PHP, HTML, CSS, JavaScript, etc.) to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
 
