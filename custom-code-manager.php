@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Custom Code Manager
- * Plugin URI: https://github.com/ArthurGareginyan/custom-code-manager
+ * Plugin URI: https://www.spacexchimp.com/plugins/custom-code-manager.html
  * Description: Easily and safely add your custom PHP/HTML/CSS/JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 1.3
+ * Version: 1.2
  * License: GPL3
  * Text Domain: custom-code-manager
  * Domain Path: /languages/
@@ -166,7 +166,7 @@ add_filter( 'plugin_row_meta', $plugin_combo['prefix'] . '_plugin_row_meta', 10,
 /**
  * Load the plugin modules
  */
-require_once( $plugin_combo['path'] . 'sub/html/main.php' );
-require_once( $plugin_combo['path'] . 'sub/js/main.php' );
-require_once( $plugin_combo['path'] . 'sub/php/main.php' );
-require_once( $plugin_combo['path'] . 'sub/css/main.php' );
+require_once( $plugin_combo['path'] . 'html/main.php' );
+require_once( $plugin_combo['path'] . 'js/main.php' );
+require_once( $plugin_combo['path'] . 'php/main.php' );
+require_once( $plugin_combo['path'] . 'css/main.php' );

@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Custom Code Manager\n"
-"POT-Creation-Date: 2019-07-06 19:46+0300\n"
-"PO-Revision-Date: 2019-07-06 19:46+0300\n"
+"POT-Creation-Date: 2019-06-27 14:17+0300\n"
+"PO-Revision-Date: 2019-06-27 14:17+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -19,7 +19,10 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
-"X-Poedit-SearchPathExcluded-1: sub\n"
+"X-Poedit-SearchPathExcluded-1: css\n"
+"X-Poedit-SearchPathExcluded-2: html\n"
+"X-Poedit-SearchPathExcluded-3: js\n"
+"X-Poedit-SearchPathExcluded-4: php\n"
 
 #: custom-code-manager.php:98 custom-code-manager.php:99
 msgid "Code"
@@ -29,94 +32,21 @@ msgstr ""
 msgid "Settings"
 msgstr "Instellingen"
 
-#: custom-code-manager.php:152
+#: custom-code-manager.php:138 custom-code-manager.php:163
+msgid "Upgrade to PRO"
+msgstr "Upgrade naar PRO"
+
+#: custom-code-manager.php:159
 msgid "Donate"
 msgstr "Doe een gift"
 
-#: inc/php/sidebar.php:17
-msgid "We are «Space X-Chimp»"
-msgstr "Wij zijn «Space X-Chimp»"
-
-#: inc/php/sidebar.php:28
-msgid "About"
-msgstr "Over"
-
-#: inc/php/sidebar.php:30
-msgid "This plugin gives you the ability to easily and safely add your custom code (PHP, HTML, CSS, JavaScript, etc.) to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
-msgstr "Met deze plug-in kunt u eenvoudig en veilig uw aangepaste code (PHP, HTML, CSS, JavaScript, etc.) rechtstreeks toe via uw WordPress-Admin, zonder dat u een externe editor nodig hebt."
-
-#: inc/php/sidebar.php:37
-msgid "Help"
-msgstr "Helpen"
-
-#: inc/php/sidebar.php:39
-msgid "If you have a question, please read the information in the FAQ section."
-msgstr "Als je een vraag hebt, lees dan de informatie in de FAQ-sectie."
-
-#: inc/php/sidebar.php:46
-msgid "Support"
-msgstr "Ondersteuning"
-
-#: inc/php/sidebar.php:48
-msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
-msgstr ""
-
-#: inc/php/sidebar.php:53 inc/php/tabs/support.php:21
-msgid "Donate with PayPal"
-msgstr "Doneer via PayPal"
-
-#: inc/php/sidebar.php:55
-msgid "Thanks for your support!"
-msgstr "Bedankt voor uw steun!"
-
-#: inc/php/tabs/support.php:13
-msgid "Support Us"
-msgstr "Ondersteun ons"
-
-#: inc/php/tabs/support.php:25
-msgid "Hello!"
-msgstr "Hallo!"
-
-#: inc/php/tabs/support.php:28
-#, php-format
-msgid "My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
-msgstr "Mijn naam is %s Arthur %s en ik ben de oprichter van %s Space X-Chimp %s, which unites a small international team of young people."
-
-#: inc/php/tabs/support.php:37
-msgid "Our intention is to create projects that will make this world a better place."
-msgstr "Het is onze bedoeling om projecten te maken die van deze wereld een betere plek maken."
-
-#: inc/php/tabs/support.php:38
-msgid "Our motto is - «Follow your dreams and don’t give up»."
-msgstr ""
-
-#: inc/php/tabs/support.php:39
-msgid "We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
-msgstr "We zijn echt gepassioneerd over ons werk, we vind het leuk wat we doe en hoop dat je ook verrijkt zult worden door ons projecten."
-
-#: inc/php/tabs/support.php:42
-msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them."
-msgstr "We besteden veel tijd en moeite om ervoor te zorgen dat de thema's, plug-ins en andere dingen die we maak nuttig zijn, en het ultieme bewijs daarvan is dat je ze echt wilt gebruiken."
-
-#: inc/php/tabs/support.php:43
-msgid "But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
-msgstr "We zijn een onafhankelijke ontwikkelaar, zonder een vast inkomen, dus elke kleine bijdrage helpt ons onze kosten te dekken en laat ons meer tijd spenderen aan het bouwen van dingen voor mensen zoals jij om van te genieten."
-
-#: inc/php/tabs/support.php:46
-msgid "If you appreciate our work, you can buy us a cup of coffee!"
-msgstr "Als je ons werk waardeert, kun je een koffie voor ons kopen!"
-
-#: inc/php/tabs/support.php:49
-msgid "Thank you for your support!"
-msgstr "Bedankt voor je ondersteuning!"
-
 #. Plugin Name of the plugin/theme
 msgid "Custom Code Manager"
-msgstr "Mijn Persoonlijke Functies"
+msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://github.com/ArthurGareginyan/custom-code-manager"
-msgstr "https://github.com/ArthurGareginyan/custom-code-manager"
+msgid "https://www.spacexchimp.com/plugins/custom-code-manager.html"
+msgstr "https://www.spacexchimp.com/plugins/custom-code-manager.html"
 
 #. Description of the plugin/theme
 msgid "Easily and safely add your custom PHP/HTML/CSS/JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
