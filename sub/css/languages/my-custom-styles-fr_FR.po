@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Styles PRO\n"
-"POT-Creation-Date: 2019-07-06 19:52+0300\n"
-"PO-Revision-Date: 2019-07-06 19:52+0300\n"
+"POT-Creation-Date: 2019-07-08 17:37+0300\n"
+"PO-Revision-Date: 2019-07-08 17:37+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/php/core.php:31
+#: inc/php/core.php:32
 msgid "CSS code"
 msgstr "CSS code"
 
@@ -564,10 +564,8 @@ msgid "https://github.com/ArthurGareginyan/custom-code-manager"
 msgstr "https://github.com/ArthurGareginyan/custom-code-manager"
 
 #. Description of the plugin/theme
-#, fuzzy
-#| msgid "Easily and safely add your custom PHP/HTML/CSS/JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgid "Easily and safely add your custom CSS code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
-msgstr "Facilement et en toute sécurité ajouter votre code PHP/HTML/CSS/JavaScript personnalisé à votre site WordPress, directement hors de la zone d'administration WordPress, sans avoir besoin d'avoir un éditeur externe."
+msgstr "Facilement et en toute sécurité ajouter votre code CSS personnalisé à votre site WordPress, directement hors de la zone d'administration WordPress, sans avoir besoin d'avoir un éditeur externe."
 
 #. Author of the plugin/theme
 msgid "Space X-Chimp"

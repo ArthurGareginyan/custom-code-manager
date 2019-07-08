@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2019-07-06 19:55+0300\n"
-"PO-Revision-Date: 2019-07-06 19:55+0300\n"
+"POT-Creation-Date: 2019-07-08 17:39+0300\n"
+"PO-Revision-Date: 2019-07-08 17:39+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/php/core.php:31
+#: inc/php/core.php:32
 msgid "PHP code"
 msgstr "PHP code"
 

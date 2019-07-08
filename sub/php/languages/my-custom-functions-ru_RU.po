@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Custom Functions\n"
-"POT-Creation-Date: 2019-07-06 19:55+0300\n"
-"PO-Revision-Date: 2019-07-06 19:55+0300\n"
+"POT-Creation-Date: 2019-07-08 17:40+0300\n"
+"PO-Revision-Date: 2019-07-08 17:40+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/php/core.php:31
+#: inc/php/core.php:32
 msgid "PHP code"
 msgstr "PHP code"
 
@@ -689,7 +689,7 @@ msgstr "https://github.com/ArthurGareginyan/custom-code-manager"
 
 #. Description of the plugin/theme
 msgid "Easily and safely add your custom PHP code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
-msgstr "Легко и безопасно добавляйте ваши пользовательские функции (код PHP), непосредственно из области администрирования WordPress, без необходимости иметь внешний редактор."
+msgstr "Легко и безопасно добавляйте ваш пользовательский PHP код, непосредственно из области администрирования WordPress, без необходимости иметь внешний редактор."
 
 #. Author of the plugin/theme
 msgid "Space X-Chimp"

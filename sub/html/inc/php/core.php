@@ -23,11 +23,12 @@ add_action( 'init', $plugin['prefix'] . '_textdomain' );
 function spacexchimp_p006_register_submenu_page() {
 
     // Put value of plugin constants into an array for easier access
+    $plugin_combo = spacexchimp_p020_plugin();
     $plugin = spacexchimp_p006_plugin();
 
     // Declare variables
     $parent_slug = 'code';
-    $page_title  = $plugin['name'];
+    $page_title  = $plugin_combo['name'];
     $menu_title  = __( 'HTML code', $plugin['text'] );
     $capability  = 'manage_options';
     $menu_slug   = 'code/html';

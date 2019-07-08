@@ -5,7 +5,7 @@ css, css2, css3, styles, stylesheet, functionality plugin
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.2
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -232,25 +232,35 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
-= 1.3 =
+= 1.4 - Jul 8, 2019 =
+* Fixed: Some texts were not ready for translation.
+* Fixed: The headings (web browser tab name) of the plugin settings pages showed the name of the plugin modules instead of the name of the main plugin.
+* Framework updated: Added new file "core.php" in order to contain the core code of the plugin. Some code moved from the file "main.php" to the file "core.php".
+* Framework updated: Added new file "versioning.php" in order to contain the code that is needed to manage the plugin version information.
+* Framework updated: Added new file "upgrade.php" in order to contain the upcoming upgrade functions of the plugin.
+* Framework updated: Added functions "_register_settings" and "_activation", which are needed to manage the service information of the plugin.
+* Framework updated: All translation files are updated.
+* Framework updated: The change log design is improved.
+
+= 1.3 - Jul 6, 2019 =
 * The structure of the plugin files is improved. The weight of the plugin (folder with all the included files) is reduced from  9.3 MB to 3.6 MB.
 * The child plugins are moved to the folder "sub".
 * The "upgrade.php" files are cleared of useless code.
 * Translation files are updated.
 
-= 1.2 =
+= 1.2 - Jul 4, 2019 =
 * The emergency stop function is improved. Now, all custom code stops execution if inside the plugin folder there is a file called "STOP".
 
-= 1.1 =
+= 1.1 - Jul 3, 2019 =
 * On the settings page of the plugin, the "Store" tab is added.
 * On the settings page of the plugin, the "Support" tab is added.
 * Additional link (donate) added to the plugin meta row.
 
-= 1.0.1 =
+= 1.0.1 - Jul 3, 2019 =
 * The function "_register_submenu_page" is cleared of useless code.
 * The content of the "readme.txt" file is corrected.
 
-= 1.0 =
+= 1.0 - Jun 30, 2019 =
 * Initial release.
 
 = 0.3 =

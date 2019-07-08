@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Custom Code Manager\n"
-"POT-Creation-Date: 2019-07-06 19:46+0300\n"
-"PO-Revision-Date: 2019-07-06 19:46+0300\n"
+"POT-Creation-Date: 2019-07-08 17:49+0300\n"
+"PO-Revision-Date: 2019-07-08 17:49+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -21,15 +21,11 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: sub\n"
 
-#: custom-code-manager.php:98 custom-code-manager.php:99
-msgid "Code"
-msgstr "Código"
-
-#: custom-code-manager.php:130
+#: inc/php/core.php:32
 msgid "Settings"
 msgstr "Ajustes"
 
-#: custom-code-manager.php:152
+#: inc/php/core.php:54
 msgid "Donate"
 msgstr "Donar"
 
@@ -43,7 +39,7 @@ msgstr "Acerca de"
 
 #: inc/php/sidebar.php:30
 msgid "This plugin gives you the ability to easily and safely add your custom code (PHP, HTML, CSS, JavaScript, etc.) to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
-msgstr "Agregue de forma fácil y segura sus código personalizado (PHP, HTML, CSS, JavaScript, etc.) a su sitio web de WordPress, directamente fuera del área de administración de WordPress, sin la necesidad de tener un editor externo."
+msgstr "Este complemento le brinda la posibilidad de agregar de forma fácil y segura sus código personalizado (PHP, HTML, CSS, JavaScript, etc.) a su sitio web de WordPress, directamente fuera del área de administración de WordPress, sin la necesidad de tener un editor externo."
 
 #: inc/php/sidebar.php:37
 msgid "Help"
@@ -129,3 +125,6 @@ msgstr "Space X-Chimp"
 #. Author URI of the plugin/theme
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
+
+#~ msgid "Code"
+#~ msgstr "Código"

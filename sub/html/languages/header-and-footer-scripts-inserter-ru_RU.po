@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Head and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2019-07-06 19:54+0300\n"
-"PO-Revision-Date: 2019-07-06 19:54+0300\n"
+"POT-Creation-Date: 2019-07-08 17:38+0300\n"
+"PO-Revision-Date: 2019-07-08 17:38+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/php/core.php:31
+#: inc/php/core.php:32
 msgid "HTML code"
 msgstr "HTML code"
 
@@ -599,7 +599,7 @@ msgstr "https://github.com/ArthurGareginyan/custom-code-manager"
 
 #. Description of the plugin/theme
 msgid "Easily and safely add your custom HTML code (plus JavaScript, CSS, etc.) to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
-msgstr ""
+msgstr "Легко и безопасно добавляйте ваш пользовательский HTML код (плюс JavaScript, CSS, etc.), непосредственно из области администрирования WordPress, без необходимости иметь внешний редактор."
 
 #. Author of the plugin/theme
 msgid "Space X-Chimp"

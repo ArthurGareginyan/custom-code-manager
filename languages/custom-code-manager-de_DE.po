@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Custom Code Manager\n"
-"POT-Creation-Date: 2019-07-06 19:46+0300\n"
-"PO-Revision-Date: 2019-07-06 19:46+0300\n"
+"POT-Creation-Date: 2019-07-08 17:48+0300\n"
+"PO-Revision-Date: 2019-07-08 17:48+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -21,15 +21,11 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: sub\n"
 
-#: custom-code-manager.php:98 custom-code-manager.php:99
-msgid "Code"
-msgstr "Code"
-
-#: custom-code-manager.php:130
+#: inc/php/core.php:32
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: custom-code-manager.php:152
+#: inc/php/core.php:54
 msgid "Donate"
 msgstr "Spende"
 
@@ -129,3 +125,6 @@ msgstr "Space X-Chimp"
 #. Author URI of the plugin/theme
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
+
+#~ msgid "Code"
+#~ msgstr "Code"
