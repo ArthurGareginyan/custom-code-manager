@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: JavaScript Inserter\n"
-"POT-Creation-Date: 2019-07-08 17:39+0300\n"
-"PO-Revision-Date: 2019-07-08 17:39+0300\n"
+"POT-Creation-Date: 2019-08-01 05:12+0300\n"
+"PO-Revision-Date: 2019-08-01 05:12+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -272,7 +272,7 @@ msgstr ""
 
 #: inc/php/tabs/faq.php:175
 #, php-format
-msgid "To apply the PHP code on a website, we can recommend you to use another our plugin called %s."
+msgid "To apply the PHP code on a website, please use the %s page of this plugin."
 msgstr ""
 
 #: inc/php/tabs/faq.php:182

@@ -23,6 +23,16 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
             </div>
             <!-- END SPACEXCHIMP -->
 
+            <!-- UPGRADE -->
+            <div class="postbox banner">
+                <div class="inside">
+                    <a href="https://www.spacexchimp.com/plugins/custom-code-manager-pro.html" target="_blank">
+                        <img src="<?php echo $plugin_combo['url'] . 'inc/img/upgrade.png'; ?>" alt="Upgrade" style="margin-top:-16px;">
+                    </a>
+                </div>
+            </div>
+            <!-- END UPGRADE -->
+
             <!-- ABOUT -->
             <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $plugin_combo['text'] ); ?></h3>

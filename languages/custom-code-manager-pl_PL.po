@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Custom Code Manager\n"
-"POT-Creation-Date: 2019-07-08 17:49+0300\n"
-"PO-Revision-Date: 2019-07-08 17:49+0300\n"
+"POT-Creation-Date: 2019-08-01 05:10+0300\n"
+"PO-Revision-Date: 2019-08-01 05:10+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -26,7 +26,11 @@ msgstr ""
 msgid "Settings"
 msgstr "Ustawienia"
 
-#: inc/php/core.php:54
+#: inc/php/core.php:40 inc/php/core.php:65
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: inc/php/core.php:61
 msgid "Donate"
 msgstr "Wesprzyj"
 
@@ -34,35 +38,35 @@ msgstr "Wesprzyj"
 msgid "We are «Space X-Chimp»"
 msgstr ""
 
-#: inc/php/sidebar.php:28
+#: inc/php/sidebar.php:38
 msgid "About"
 msgstr "O wtyczce"
 
-#: inc/php/sidebar.php:30
+#: inc/php/sidebar.php:40
 msgid "This plugin gives you the ability to easily and safely add your custom code (PHP, HTML, CSS, JavaScript, etc.) to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor."
 msgstr ""
 
-#: inc/php/sidebar.php:37
+#: inc/php/sidebar.php:47
 msgid "Help"
 msgstr "Pomoc"
 
-#: inc/php/sidebar.php:39
+#: inc/php/sidebar.php:49
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr ""
 
-#: inc/php/sidebar.php:46
+#: inc/php/sidebar.php:56
 msgid "Support"
 msgstr ""
 
-#: inc/php/sidebar.php:48
+#: inc/php/sidebar.php:58
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr ""
 
-#: inc/php/sidebar.php:53 inc/php/tabs/support.php:21
+#: inc/php/sidebar.php:63 inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/sidebar.php:55
+#: inc/php/sidebar.php:65
 msgid "Thanks for your support!"
 msgstr "Dziękujemy za wsparcie!"
 

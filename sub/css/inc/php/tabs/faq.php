@@ -172,8 +172,8 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 add_action( 'wp_head', 'my_custom_css_code' );</code></pre>
                 <?php
                     printf(
-                        __( 'To apply the PHP code on a website, we can recommend you to use another our plugin called %s.', $plugin['text'] ),
-                        '<a href="https://wordpress.org/plugins/my-custom-functions/" target="_blank">My Custom Functions</a>'
+                        __( 'To apply the PHP code on a website, please use the %s page of this plugin.', $plugin['text'] ),
+                        '<a href="' . admin_url( 'admin.php?page=code/php' ) . '">appropriate</a>'
                     );
                 ?>
             </div>

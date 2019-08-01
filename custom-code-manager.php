@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom PHP/HTML/CSS/JavaScript code to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 1.4.1
+ * Version: 1.5
  * License: GPL3
  * Text Domain: custom-code-manager
  * Domain Path: /languages/
@@ -91,6 +91,29 @@ function spacexchimp_p020_plugin() {
  * Put value of plugin constants into an array for easier access
  */
 $plugin_combo = spacexchimp_p020_plugin();
+
+/**
+ * Exit if the premium version of this plugin is active
+ */
+$plugin_other = 'custom-code-manager-pro/custom-code-manager-pro.php';
+function spacexchimp_p020_is_plugin_active_for_network( $plugin_other ) {
+	if ( ! is_multisite() ) {
+		return false;
+	}
+
+	$plugins = get_site_option( 'active_sitewide_plugins' );
+	if ( isset( $plugins[ $plugin_other ] ) ) {
+		return true;
+	}
+
+	return false;
+}
+function spacexchimp_p020_is_plugin_active( $plugin_other ) {
+	return in_array( $plugin_other, (array) get_option( 'active_plugins', array() ) ) || spacexchimp_p020_is_plugin_active_for_network( $plugin_other );
+}
+if ( spacexchimp_p020_is_plugin_active( $plugin_other ) ) {
+    return;
+}
 
 /**
  * Load the plugin modules

@@ -5,7 +5,7 @@ css, css2, css3, styles, stylesheet, functionality plugin
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.2
-Stable tag: 1.4.1
+Stable tag: 1.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -43,6 +43,23 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Active line highlighting
 * Editor allow for Tab indentation
 * And much, much more!
+
+**PRO features include**
+
+* CSS minifier
+* Manage which HTML/CSS/JS code load on HEAD or FOOTER
+* Controlling the priority of loading HTML/CSS/JS code
+* Ability to easily customize the code editor by selecting the desired settings
+* 56 themes for syntax highlighting
+* Toolbar with useful buttons, such as Undo, Redo, etc.
+* Ability to use shortcut keys (both Mac and PC) for Search, Replace, etc.
+* Unlimited number of fields for snippets
+* Automatic backup of all snippets to a downloadable text file
+* Separate activation and deactivation of snippets
+* No ads on the settings page
+* Well documented
+
+[Get the PRO version now!](https://www.spacexchimp.com/plugins/custom-code-manager-pro.html)
 
 **Supported languages**
 
@@ -228,9 +245,17 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Developer website](https://www.spacexchimp.com)
 * [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/custom-code-manager)
 * [Dedicated plugin page on WordPress.org](https://wordpress.org/plugins/custom-code-manager/)
+* [Premium Version](https://www.spacexchimp.com/plugins/custom-code-manager-pro.html)
 
 
 == Changelog ==
+
+= 1.5 - Aug 1, 2019 =
+* The PRO version of this plugin is advertised on the plugin settings page and in the plugin meta.
+* Framework updated: Added a corresponding function to stop the functionality of this plugin if there is the PRO version of this plugin installed and activated.
+* Improvement: Content of the "readme.txt" file is updated.
+* Improvement: Content of the "F.A.Q." section is updated.
+* Framework updated: Translation files are updated.
 
 = 1.4.1 - Jul 16, 2019 =
 * Fixed: Prints a warning since PHP/7.1: "Notice: A non well formed numeric value encountered in /inc/php/versioning.php on line 43".

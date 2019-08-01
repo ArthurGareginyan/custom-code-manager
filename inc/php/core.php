@@ -35,6 +35,13 @@ function spacexchimp_p020_settings_link( $links ) {
 
     array_unshift( $links, $link_settings );
 
+    // Declare variables
+    $url_upgrade = "https://www.spacexchimp.com/plugins/custom-code-manager-pro.html";
+    $text_upgrade = __( 'Upgrade to PRO', $plugin_combo['text'] );
+    $link_upgrade = '<a href="' . $url_upgrade . '" target="_blank"><b style="color:red;">' . $text_upgrade . '</b></a>';
+
+    array_unshift( $links, $link_upgrade );
+
     return $links;
 }
 add_filter( 'plugin_action_links_' . $plugin_combo['base'], $plugin_combo['prefix'] . '_settings_link' );
@@ -54,8 +61,13 @@ function spacexchimp_p020_plugin_row_meta( $links, $file ) {
         $text_donate = __( 'Donate', $plugin_combo['text'] );
         $link_donate = '<a href="' . $url_donate . '" target="_blank"><span class="dashicons dashicons-heart"></span> ' . $text_donate . '</a>';
 
+        $url_upgrade = "https://www.spacexchimp.com/plugins/custom-code-manager-pro.html";
+        $text_upgrade = __( 'Upgrade to PRO', $plugin_combo['text'] );
+        $link_upgrade = '<a href="' . $url_upgrade . '" target="_blank"><span class="dashicons dashicons-star-filled"></span> ' . $text_upgrade . '</a>';
+
         $new_links = array(
-                           'donate' => $link_donate
+                           'donate' => $link_donate,
+                           'upgrage' => $link_upgrade
                            );
 
         $links = array_merge( $links, $new_links );

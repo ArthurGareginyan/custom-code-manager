@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: My Custom Styles\n"
-"POT-Creation-Date: 2019-07-08 17:38+0300\n"
+"POT-Creation-Date: 2019-08-01 05:11+0300\n"
 "PO-Revision-Date: 2015-09-09 17:37+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -274,7 +274,7 @@ msgstr ""
 
 #: inc/php/tabs/faq.php:175
 #, php-format
-msgid "To apply the PHP code on a website, we can recommend you to use another our plugin called %s."
+msgid "To apply the PHP code on a website, please use the %s page of this plugin."
 msgstr ""
 
 #: inc/php/tabs/faq.php:182
