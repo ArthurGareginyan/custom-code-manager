@@ -35,6 +35,23 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Editor allow for Tab indentation
 * And much, much more!
 
+**PRO features include**
+
+* CSS minifier
+* Manage which HTML/CSS/JS code load on HEAD or FOOTER
+* Controlling the priority of loading HTML/CSS/JS code
+* Ability to easily customize the code editor by selecting the desired settings
+* 56 themes for syntax highlighting
+* Toolbar with useful buttons, such as Undo, Redo, etc.
+* Ability to use shortcut keys (both Mac and PC) for Search, Replace, etc.
+* Unlimited number of fields for snippets
+* Automatic backup of all snippets to a downloadable text file
+* Separate activation and deactivation of snippets
+* No ads on the settings page
+* Well documented
+
+[Get the PRO version now!](https://www.spacexchimp.com/plugins/custom-code-manager-pro.html)
+
 **Supported languages**
 
 * PHP
