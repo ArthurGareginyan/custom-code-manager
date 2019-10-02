@@ -5,7 +5,7 @@ css, css2, css3, styles, stylesheet, functionality plugin
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.2
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -249,6 +249,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 1.6 - Oct 2, 2019 =
+* French translation updated. (Thanks to Hervé Bouzin)
 
 = 1.5 - Aug 1, 2019 =
 * The PRO version of this plugin is advertised on the plugin settings page and in the plugin meta.
