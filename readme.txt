@@ -5,7 +5,7 @@ css, css2, css3, styles, stylesheet, functionality plugin
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.3
-Stable tag: 1.7
+Stable tag: 1.8
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -249,6 +249,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 1.8 - Jan 20, 2020 =
+* Maintenance: The copyright date updated to support the 2020 year.
 
 = 1.7 - Nov 11, 2019 =
 * Maintenance: Compatibility with upcoming WordPress 5.3.
