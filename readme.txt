@@ -123,7 +123,7 @@ Manually via FTP access:
 
 After installation and activation, the "`Code`" menu item will appear in the Admin Area. Click on it in order to view the plugin settings page.
 
-[More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
+[More help installing plugins](https://wordpress.org/support/article/managing-plugins/ "WordPress Codex: Installing Plugins")
 
 
 == Frequently Asked Questions ==
