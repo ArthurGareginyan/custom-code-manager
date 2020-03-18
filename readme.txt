@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: code, function, snippet, script, inject code, insert code, execute code, inject function, inject snippet, inject scripts, inject php, inject javascript, inject js, inject html, inject css, insert function, insert snippet, insert php, insert scripts, insert javascript, insert js, insert html, insert css, execute function, execute snippet, execute php, inject custom code, inject custom function, inject custom scripts, inject custom snippet, inject custom php, inject custom css, insert custom code, insert custom function, insert custom scripts, insert custom snippet, insert custom php, execute custom code, execute custom function, execute custom snippet, execute custom php, insert custom css, html, javascript, js, css, php, custom code, script, scripts, custom scripts, meta, meta tags, head, header, head section, head area, footer, footer section, footer area
 css, css2, css3, styles, stylesheet, functionality plugin
 Donate link: https://www.spacexchimp.com/donate.html
-Requires at least: 3.9
+Requires at least: 4.9
 Tested up to: 5.3
 Stable tag: 1.8
 License: GPL3
@@ -85,11 +85,13 @@ If you want to help translate this plugin, please visit the [translation page](h
 
 **Minimum system requirements:**
 
+* [WordPress](https://wordpress.org) version **4.9** or higher.
 * [PHP](https://secure.php.net) version **5.2** or higher.
 * [MySQL](https://www.mysql.com) version **5.0** or higher.
 
 **Recommended system requirements:**
 
+* [WordPress](https://wordpress.org) version **5.0** or higher.
 * [PHP](https://secure.php.net) version **7.0** or higher.
 * [MySQL](https://www.mysql.com) version **5.6** or higher.
 
