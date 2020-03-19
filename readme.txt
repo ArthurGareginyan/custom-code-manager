@@ -4,7 +4,7 @@ Tags: code, function, snippet, script, inject code, insert code, execute code, i
 css, css2, css3, styles, stylesheet, functionality plugin
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
-Tested up to: 5.3
+Tested up to: 5.4
 Stable tag: 1.8
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
