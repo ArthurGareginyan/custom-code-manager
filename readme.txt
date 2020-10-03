@@ -6,7 +6,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.5
 Requires PHP: 5.6
-Stable tag: 1.10
+Stable tag: 1.11
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -253,6 +253,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 1.11 - Oct 3, 2020 =
+* New feature: Restoring screen position after saving changes. No more annoying return to the top of the page after clicking the "Save" button.
+* Maintenance: Loading of dynamic content on the settings page has been updated to more versatile.
 
 = 1.10 - Aug 10, 2020 =
 * Maintenance: Ensure compatibility with upcoming WordPress 5.5.
