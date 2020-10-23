@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Custom Code Manager\n"
-"POT-Creation-Date: 2019-08-01 05:09+0300\n"
-"PO-Revision-Date: 2019-08-01 05:09+0300\n"
+"POT-Creation-Date: 2020-10-23 15:06+0300\n"
+"PO-Revision-Date: 2020-10-23 15:06+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: custom-code-manager.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Settings"
 msgstr "Ajustes"
 
-#: inc/php/core.php:40 inc/php/core.php:65
+#: inc/php/core.php:40
 msgid "Upgrade to PRO"
 msgstr ""
 
