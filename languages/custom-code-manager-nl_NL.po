@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Custom Code Manager\n"
-"POT-Creation-Date: 2020-10-23 15:06+0300\n"
-"PO-Revision-Date: 2020-10-23 15:06+0300\n"
+"POT-Creation-Date: 2020-12-08 16:19+0300\n"
+"PO-Revision-Date: 2020-12-08 16:19+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: custom-code-manager.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -61,7 +61,7 @@ msgstr "Ondersteuning"
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr ""
 
-#: inc/php/sidebar.php:63 inc/php/tabs/support.php:21
+#: inc/php/sidebar.php:63 inc/php/tabs/support.php:25
 msgid "Donate with PayPal"
 msgstr "Doneer via PayPal"
 
@@ -69,44 +69,44 @@ msgstr "Doneer via PayPal"
 msgid "Thanks for your support!"
 msgstr "Bedankt voor uw steun!"
 
-#: inc/php/tabs/support.php:13
+#: inc/php/tabs/support.php:17
 msgid "Support Us"
 msgstr "Ondersteun ons"
 
-#: inc/php/tabs/support.php:25
+#: inc/php/tabs/support.php:29
 msgid "Hello!"
 msgstr "Hallo!"
 
-#: inc/php/tabs/support.php:28
+#: inc/php/tabs/support.php:32
 #, php-format
 msgid "My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
 msgstr "Mijn naam is %s Arthur %s en ik ben de oprichter van %s Space X-Chimp %s, which unites a small international team of young people."
 
-#: inc/php/tabs/support.php:37
+#: inc/php/tabs/support.php:41
 msgid "Our intention is to create projects that will make this world a better place."
 msgstr "Het is onze bedoeling om projecten te maken die van deze wereld een betere plek maken."
 
-#: inc/php/tabs/support.php:38
+#: inc/php/tabs/support.php:42
 msgid "Our motto is - «Follow your dreams and don’t give up»."
 msgstr ""
 
-#: inc/php/tabs/support.php:39
+#: inc/php/tabs/support.php:43
 msgid "We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
 msgstr "We zijn echt gepassioneerd over ons werk, we vind het leuk wat we doe en hoop dat je ook verrijkt zult worden door ons projecten."
 
-#: inc/php/tabs/support.php:42
+#: inc/php/tabs/support.php:46
 msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them."
 msgstr "We besteden veel tijd en moeite om ervoor te zorgen dat de thema's, plug-ins en andere dingen die we maak nuttig zijn, en het ultieme bewijs daarvan is dat je ze echt wilt gebruiken."
 
-#: inc/php/tabs/support.php:43
+#: inc/php/tabs/support.php:47
 msgid "But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "We zijn een onafhankelijke ontwikkelaar, zonder een vast inkomen, dus elke kleine bijdrage helpt ons onze kosten te dekken en laat ons meer tijd spenderen aan het bouwen van dingen voor mensen zoals jij om van te genieten."
 
-#: inc/php/tabs/support.php:46
+#: inc/php/tabs/support.php:50
 msgid "If you appreciate our work, you can buy us a cup of coffee!"
 msgstr "Als je ons werk waardeert, kun je een koffie voor ons kopen!"
 
-#: inc/php/tabs/support.php:49
+#: inc/php/tabs/support.php:53
 msgid "Thank you for your support!"
 msgstr "Bedankt voor je ondersteuning!"
 
