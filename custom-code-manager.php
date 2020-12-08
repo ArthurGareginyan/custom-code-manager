@@ -95,7 +95,7 @@ $plugin_combo = spacexchimp_p020_plugin();
 /**
  * Exit if the premium version of this plugin is active
  */
-$plugin_other = 'custom-code-manager-pro/custom-code-manager-pro.php';
+$plugin_other = $plugin_combo['slug'] . '-pro/' . $plugin_combo['slug'] . '-pro.php';
 function spacexchimp_p020_is_plugin_active_for_network( $plugin_other ) {
 	if ( ! is_multisite() ) {
 		return false;
