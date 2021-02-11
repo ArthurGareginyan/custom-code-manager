@@ -47,7 +47,7 @@ function spacexchimp_p003_prepare() {
 }
 
 /**
- * Inject the custom code into the website's frontend
+ * Inject the custom code into the website's frontend (head section)
  * Only if the STOP file does not exist
  */
 if ( ! file_exists( $plugin_combo['path'] . 'STOP' ) ) {
