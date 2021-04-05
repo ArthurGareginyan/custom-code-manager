@@ -271,10 +271,8 @@ msgid "You need something like this:"
 msgstr "Вам нужно что-то вроде этого:"
 
 #: inc/php/tabs/faq.php:179
-#, fuzzy, php-format
-#| msgid "To apply the PHP code on a website, we can recommend you to use another our plugin called %s."
 msgid "To apply the PHP code on a website, please use the %s page of this plugin."
-msgstr "Чтобы применить PHP код на веб-сайте, мы можем порекомендовать вам использовать другой наш плагин, называемый %s."
+msgstr ""
 
 #: inc/php/tabs/faq.php:186
 msgid "It's not working."
